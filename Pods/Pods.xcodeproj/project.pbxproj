@@ -6,18 +6,42 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		3969DC8CBDBAD3717FFD8A917221093E /* Pods-HIROAKIKadai12-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A1C1DD7D5CBEEAD9934F631A09D23A /* Pods-HIROAKIKadai12-dummy.m */; };
-		E7C93D5A9CB52EED4E765AAE9D2049C2 /* Pods-HIROAKIKadai12-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5F8169D82D95046B646DAF1492BDF5 /* Pods-HIROAKIKadai12-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7927D46F5B0EB37D881161BBED65981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0D7D73566D9C48A5AF5ED2E70F03A6F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A121FB087DE1BF5B2EB1D77A57132EF0 /* Pods-HIROAKIKadai12-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5F8169D82D95046B646DAF1492BDF5 /* Pods-HIROAKIKadai12-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D047A69A0409896F7E451B7CA50CD8D3 /* Pods-HIROAKIKadai12-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A1C1DD7D5CBEEAD9934F631A09D23A /* Pods-HIROAKIKadai12-dummy.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183C4184CDC2550E9CDE949AEB475D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		37A1C1DD7D5CBEEAD9934F631A09D23A /* Pods-HIROAKIKadai12-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HIROAKIKadai12-dummy.m"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		57357E542619335A93C868D9781963A6 /* Pods-HIROAKIKadai12.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HIROAKIKadai12.release.xcconfig"; sourceTree = "<group>"; };
 		5FE5CE367F4C968004F503E663A4AC42 /* Pods-HIROAKIKadai12-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HIROAKIKadai12-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		775CB6EF626B222191DDC3CAC406FC9B /* Pods-HIROAKIKadai12 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HIROAKIKadai12"; path = Pods_HIROAKIKadai12.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E9007C67AC6B763404B46CA341E2B40 /* Pods-HIROAKIKadai12.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HIROAKIKadai12.debug.xcconfig"; sourceTree = "<group>"; };
 		A0F6F106524A5A96D7B8597878899B7B /* Pods-HIROAKIKadai12-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HIROAKIKadai12-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -27,11 +51,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		92153AD90F673FF11C70DCE90EAFD3E5 /* Frameworks */ = {
+		77241C2292BCCC7D919811A026A5812C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7927D46F5B0EB37D881161BBED65981 /* Foundation.framework in Frameworks */,
+				0D7D73566D9C48A5AF5ED2E70F03A6F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +76,24 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BDA4948785867A0C4550BB8A971BF41A /* Pods-HIROAKIKadai12 */ = {
@@ -83,6 +125,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
 				CBF9D1ADA22C2E7AF3F045339B4B4187 /* Products */,
 				5549CF8DD6C1D1BE7A486DE96A32FDC0 /* Targets Support Files */,
 			);
@@ -96,14 +139,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		179432427FC11F1B2E72858B49DCDD3E /* Headers */ = {
+		73A94D37228F697FF0D445639FCB9709 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7C93D5A9CB52EED4E765AAE9D2049C2 /* Pods-HIROAKIKadai12-umbrella.h in Headers */,
+				A121FB087DE1BF5B2EB1D77A57132EF0 /* Pods-HIROAKIKadai12-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,16 +164,17 @@
 /* Begin PBXNativeTarget section */
 		23D0A010A172FC13C4CAE48EC02C2D66 /* Pods-HIROAKIKadai12 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39593E0F7B4B2A283373EFE020B6661D /* Build configuration list for PBXNativeTarget "Pods-HIROAKIKadai12" */;
+			buildConfigurationList = A9C0630D1754C788943F4EF79411B29A /* Build configuration list for PBXNativeTarget "Pods-HIROAKIKadai12" */;
 			buildPhases = (
-				179432427FC11F1B2E72858B49DCDD3E /* Headers */,
-				5CFE2647AC44A54B4561862395C5CCA4 /* Sources */,
-				92153AD90F673FF11C70DCE90EAFD3E5 /* Frameworks */,
-				2FC8944369580689863E3571537D483B /* Resources */,
+				73A94D37228F697FF0D445639FCB9709 /* Headers */,
+				6A5616BF0F44CE4EA0B2BB9C266A1269 /* Sources */,
+				77241C2292BCCC7D919811A026A5812C /* Frameworks */,
+				7D55117DDE158CDA048E441055006526 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C9702AFFC4A400DC0D90A941AC1B7B95 /* PBXTargetDependency */,
 			);
 			name = "Pods-HIROAKIKadai12";
 			productName = Pods_HIROAKIKadai12;
@@ -151,12 +204,13 @@
 			projectRoot = "";
 			targets = (
 				23D0A010A172FC13C4CAE48EC02C2D66 /* Pods-HIROAKIKadai12 */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2FC8944369580689863E3571537D483B /* Resources */ = {
+		7D55117DDE158CDA048E441055006526 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,15 +220,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5CFE2647AC44A54B4561862395C5CCA4 /* Sources */ = {
+		6A5616BF0F44CE4EA0B2BB9C266A1269 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3969DC8CBDBAD3717FFD8A917221093E /* Pods-HIROAKIKadai12-dummy.m in Sources */,
+				D047A69A0409896F7E451B7CA50CD8D3 /* Pods-HIROAKIKadai12-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9702AFFC4A400DC0D90A941AC1B7B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 183C4184CDC2550E9CDE949AEB475D79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
@@ -243,9 +306,9 @@
 			};
 			name = Debug;
 		};
-		BBD1BC6CC04B64413F14E05E5D55FCBC /* Debug */ = {
+		90F0C56679D1FAF1A1E7D0ABFE0ACBF0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E9007C67AC6B763404B46CA341E2B40 /* Pods-HIROAKIKadai12.debug.xcconfig */;
+			baseConfigurationReference = 57357E542619335A93C868D9781963A6 /* Pods-HIROAKIKadai12.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -275,10 +338,28 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -342,9 +423,9 @@
 			};
 			name = Release;
 		};
-		E57D1CF533BDA84E917853841121EDA2 /* Release */ = {
+		DE0B1829DE09C266841939907E6E9948 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57357E542619335A93C868D9781963A6 /* Pods-HIROAKIKadai12.release.xcconfig */;
+			baseConfigurationReference = 9E9007C67AC6B763404B46CA341E2B40 /* Pods-HIROAKIKadai12.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -374,29 +455,53 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39593E0F7B4B2A283373EFE020B6661D /* Build configuration list for PBXNativeTarget "Pods-HIROAKIKadai12" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BBD1BC6CC04B64413F14E05E5D55FCBC /* Debug */,
-				E57D1CF533BDA84E917853841121EDA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4214E6946993DF02ED98D89047C64016 /* Debug */,
 				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C0630D1754C788943F4EF79411B29A /* Build configuration list for PBXNativeTarget "Pods-HIROAKIKadai12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0B1829DE09C266841939907E6E9948 /* Debug */,
+				90F0C56679D1FAF1A1E7D0ABFE0ACBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

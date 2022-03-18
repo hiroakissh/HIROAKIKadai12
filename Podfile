@@ -6,5 +6,5 @@ target 'HIROAKIKadai12' do
   use_frameworks!
 
   # Pods for HIROAKIKadai12
-  "SwiftLint"
+  pod "SwiftLint"
 end
