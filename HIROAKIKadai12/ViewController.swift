@@ -14,15 +14,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        includingTaxLabel.text = UserDefaults.standard.string(forKey: "TaxPrice") ?? ""
     }
 
-    @IBAction func totalcalc(_ sender: Any) {
+    @IBAction private func totalcalc(_ sender: Any) {
         var totalPrice = 0
         let priceBeforTax = Double(beforTaxTextField.text ?? "") ?? 0.0
         let tax = Double(taxTextFieild.text ?? "") ?? 0.0
 
         totalPrice = Int(priceBeforTax * tax)
-        includingTaxLabel.text = String(totalPrice) ?? ""
+        includingTaxLabel.text = String(totalPrice)
+
+        UserDefaults.standard.set(String(totalPrice), forKey: "TaxPrice")
     }
 }
