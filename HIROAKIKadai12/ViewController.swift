@@ -14,6 +14,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        beforTaxTextField.keyboardType = .numberPad
+        taxTextFieild.keyboardType = .numberPad
 
         includingTaxLabel.text = UserDefaults.standard.string(forKey: "TaxPrice") ?? ""
     }
