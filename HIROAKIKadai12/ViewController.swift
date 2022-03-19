@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         beforTaxTextField.keyboardType = .numberPad
-        taxTextFieild.keyboardType = .numberPad
+        taxTextFieild.keyboardType = .decimalPad
 
         includingTaxLabel.text = UserDefaults.standard.string(forKey: "TaxPrice") ?? ""
     }
