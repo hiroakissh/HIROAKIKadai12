@@ -22,10 +22,10 @@ class ViewController: UIViewController {
 
     @IBAction private func totalcalc(_ sender: Any) {
         var totalPrice = 0
-        let priceBeforTax = Double(beforTaxTextField.text ?? "") ?? 0.0
-        let tax = Double(taxTextFieild.text ?? "") ?? 0.0
+        let priceBeforTax = Float(beforTaxTextField.text ?? "") ?? 0.0
+        let tax = Float(taxTextFieild.text ?? "") ?? 0.0
 
-        totalPrice = Int(priceBeforTax * tax)
+        totalPrice = Int(priceBeforTax * (1 + (tax / 100.0)))
         includingTaxLabel.text = String(totalPrice)
 
         UserDefaults.standard.set(String(totalPrice), forKey: "TaxPrice")
