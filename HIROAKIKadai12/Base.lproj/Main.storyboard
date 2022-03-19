@@ -76,6 +76,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="計算"/>
+                                <connections>
+                                    <action selector="totalcalc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qih-cg-svq"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="０" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGD-bX-AcV">
                                 <rect key="frame" x="230" y="253" width="26" height="30"/>
@@ -90,7 +93,7 @@
                     </view>
                     <connections>
                         <outlet property="beforTaxTextField" destination="OEj-RK-vT7" id="a1h-F0-gfm"/>
-                        <outlet property="includingTaxTextFileld" destination="kGD-bX-AcV" id="UIu-Zh-QtT"/>
+                        <outlet property="includingTaxLabel" destination="kGD-bX-AcV" id="Ruu-Ir-J4g"/>
                         <outlet property="taxTextFieild" destination="lNC-k2-Fue" id="DLK-S4-NVj"/>
                     </connections>
                 </viewController>
