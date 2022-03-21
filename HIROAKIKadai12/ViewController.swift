@@ -12,14 +12,17 @@ class ViewController: UIViewController {
     @IBOutlet private weak var taxTextFieild: UITextField!
     @IBOutlet private weak var includingTaxLabel: UILabel!
 
-    private let key = "TaxPrice"
+    private var saveTax: Float = 0.0
+
+    private let key = "TAX"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         beforTaxTextField.keyboardType = .numberPad
         taxTextFieild.keyboardType = .decimalPad
 
-        includingTaxLabel.text = UserDefaults.standard.string(forKey: key) ?? ""
+        saveTax = UserDefaults.standard.float(forKey: key)
+        taxTextFieild.text = String(saveTax)
     }
 
     @IBAction private func totalcalc(_ sender: Any) {
@@ -30,6 +33,6 @@ class ViewController: UIViewController {
         totalPrice = Int(priceBeforTax * (1 + (tax / 100.0)))
         includingTaxLabel.text = String(totalPrice)
 
-        UserDefaults.standard.set(String(totalPrice), forKey: key)
+        UserDefaults.standard.set(tax, forKey: key)
     }
 }
